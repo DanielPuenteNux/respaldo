@@ -1,0 +1,276 @@
+.accordion-button-cotizacion .custom-button::after{
+    margin-left:5px !important;
+    margin-right: 10px;
+}
+
+/* Estilos para la partida */
+.buttons-action-partida{
+    display:flex; 
+    justify-content: flex-end; 
+    gap: 10px; 
+    margin-bottom: 10px;
+}
+.itemCotizacion:hover{
+    background-color: transparent !important;
+}
+
+.itemCotizacion .panel_Header::before{
+    content: '';
+    position: absolute;
+    inset: 0;
+    width: 200px;
+    margin-left: auto;
+    background: #f6f6f6;
+    clip-path: polygon(15% 0%, 100% 0%, 100% 85%, 100% 100%, 0 100%);
+    border-radius:7px;
+}
+
+.itemCotizacion .panel_Header{
+    background: white; 
+    height: 50px; 
+    border-radius:7px;
+    border-bottom:1px solid #e3e7ea;
+    padding-left: 0px;
+}
+
+.itemCotizacion .clone-delete-buttons{
+    display: flex;
+    position: absolute;
+    right: 97px;
+    width: 65px;
+    border-right: 2px solid #e3e7ea;
+}
+
+.itemCotizacion .buttons-action-cot{
+    display:flex;
+    position: absolute;
+    right: 0px;
+}
+
+.itemCotizacion .nav-link{
+    font-size:17px !important; 
+    padding: 10px 15px !important; 
+    cursor: pointer;
+    color:#b5b5b5 !important;
+    font-weight: 100 !important;
+
+}
+
+.itemCotizacion .nav-link.active{
+    border-bottom: 4px solid #ce1800 !important;
+    background-color: unset !important;
+    color: #000 !important;
+
+}
+.itemCotizacion .nav-link:hover{
+    border-bottom: 4px solid #ce1800 !important;
+
+}
+
+.itemCotizacion .nav-item{
+    border-left:none !important;
+}
+
+/*====== Estilos para los documentos ======*/
+.docCot{
+    width: 100% !important; 
+    padding-bottom: 2px !important; 
+    height: auto !important; 
+    border: none !important; 
+    margin-top:10px !important;
+}
+.docCot .itemField{
+    width: 50px; 
+    border-top-right-radius: 0px !important; 
+    border-bottom-right-radius: 0px !important; 
+    border-right:0 !important; 
+    margin-bottom:0;
+}
+.docCot .doc{
+    width:100%; 
+    margin-bottom: 0; 
+    border-right:0;
+    justify-content: flex-start; 
+    align-items: flex-start; 
+    flex-direction: column;
+    cursor: default;
+}
+.docCot .docName{
+    text-align: left;
+    font-size: 15px;
+    padding-bottom: 0 !important;
+    word-break: break-all;
+    padding-top: 0px !important;    
+    cursor: pointer;
+}
+.docCot .docName:hover{
+    text-decoration: underline;
+}
+.docCot .editDocName{
+    width: 20px;
+}
+.docCot .editDocName .itemField_Icon{
+    min-height: 0;
+    width: 100%;
+}
+.docCot .tipoDocCot{
+    color:#6d6e6f; 
+    font-size:12px; 
+    padding-bottom: 0 !important; 
+    word-break: break-all; 
+    padding-top:0px !important;
+    cursor: pointer;
+}
+.docCot .tipoDocCot:hover{
+    text-decoration: underline;
+}
+
+/*====== Iconos ======*/
+.lock-container{
+    display:flex; 
+    justify-content: space-between;
+}
+.buttons-action{
+    display:flex; 
+    justify-content: flex-end; 
+    gap: 10px; 
+    margin-right: 20px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.background-icon-bitacora-cot{
+    width: 40px !important;
+    height: 40px;
+    cursor: pointer;
+    background-color: #ffffff;
+    border-radius: 50%;
+    border: 1px solid #e3e7ea;
+}
+.icon-bitacora-cot{
+    width: 30px !important;
+    height: 30px !important;
+    cursor: pointer;
+    margin-left: 3px;
+    margin-top: 3px;
+}
+.itemCotizacion .btn-additem{
+    background-color: #b81400 !important;
+    border-color: #b81400 !important;
+    padding-top: 4px !important;
+    flex: 0 0 34px !important;
+    height: 34px;
+}
+
+.itemCotizacion .chevron-if-articulo{
+    flex-basis:50px;
+}
+/*====== Iconos css ends ======*/
+
+/*====== Estilos para los documentos de la partida ======*/
+.image-partida-cotizacion{
+    border:1px solid #e4e8ea;
+}
+.container-image-partida{
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 20px;
+    column-gap: 80px;
+}
+
+.image-wrapper-cot{
+    display: flex;
+    flex-wrap: wrap;
+    height: 200px;
+}
+.image-wrapper-cot hr{
+    background-color: rgb(228, 232, 234);
+}
+.itemCotizacion .toolbar-image{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border:1px solid #e4e8ea;
+    width: 30px;
+    height: 130px;
+    background: #ffffff;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 90%, 55% 100%, 0% 100%);
+}
+
+.container-docs-partida{
+    background: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    display: inline-flex;
+    flex-wrap: wrap;
+}
+
+.docNameImage{
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    border-left: 1px solid #e4e8ea;
+    border-right: 1px solid #e4e8ea;
+    border-bottom: 1px solid #e4e8ea;
+}
+.docNameImage .itemField_Icon{
+    transition: 0.2s ease-in-out;
+    cursor:pointer;
+}
+.docNameImage .itemField_Icon:hover{
+    background: rgba(0, 0, 0, 0.05);
+    padding-bottom: 4px;
+}
+
+/*====== Estilos para los documentos de la partida css ends ======*/
+
+/*====== Estilos para los items detalle de una partida ======*/
+.wrapperDetalleArticulos .over{
+    background-color: #e4f6e7;
+}
+.itemCotizacionDetalle .text-articulo{
+    width: 350px;
+}
+
+.itemCotizacionDetalle .itemField_Icon{
+    transition: 0.2s ease-in-out;
+    cursor:pointer;
+}
+.itemCotizacionDetalle .itemField_Icon:hover{
+    background: rgba(0, 0, 0, 0.05);
+    padding-bottom: 4px;
+}
+
+.itemCotizacionDetalle .formElement{
+    margin-bottom:0px;
+}
+
+.itemCotizacionDetalle .grabber{
+    position: relative;
+    display: flex;
+    background: url(../images/grabber.svg) no-repeat center;
+    background-size: 70%;
+    width: 27px;
+    height: 20px;
+}
+.itemCotizacionDetalle .up{
+    background: url(../images/grabber_up.svg) no-repeat center;    
+    background-size: 70%;
+}
+.itemCotizacionDetalle .down{
+    background: url(../images/grabber_down.svg) no-repeat center;    
+    background-size: 70%;
+}
+
+.articulo-info-wrapper{
+    display: flex;
+    align-items: center;
+}
+
+.priceInfoPartida{
+    display: flex;
+}
+
+/*====== Estilos para los items detalle de una partida ends ======*/
